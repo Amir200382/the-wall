@@ -1,5 +1,5 @@
 from django.urls import path
-from . import views
+from ads import views
 
 urlpatterns = [
     path('', views.ad_list, name='ad_list'),
